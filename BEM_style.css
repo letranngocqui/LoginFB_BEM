@@ -79,10 +79,15 @@ right__logo-meta > img{
 }
 
 .right__form-title {
+    position: ;
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+}
+
+.right__form-title:first-child {
+    position: fixed;
 }
 
 .right__icon{
