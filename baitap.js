@@ -39,6 +39,6 @@ bai5(7);
 // Bai 6: BMI: can nang / (chieu cao * chieu cao), in kết quả.
 function bai6(canNang, chieuCao) {
   const BMI = canNang / (chieuCao * chieuCao);
-  console.log(`Dap an bai 6: BMI = ${BMI}`);
+  console.log(`Dap an bai 6: BMI = ${Number(BMI.toFixed(3))}`);
 }
 bai6(50, 165);
