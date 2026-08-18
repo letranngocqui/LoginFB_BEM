@@ -85,6 +85,12 @@ right__logo-meta > img{
     justify-content: flex-start;
 }
 
+.left__logo-slogan {
+    position: fixed;
+    top: 50px;
+    left: 20px;
+}
+
 .right__icon{
     position: relative;
 }
@@ -142,7 +148,7 @@ hr ~ footer {
 
 .footer__language-list, .footer__footer-links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
