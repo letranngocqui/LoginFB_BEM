@@ -79,6 +79,7 @@ right__logo-meta > img{
 }
 
 .right__form-title {
+    position: ;
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
