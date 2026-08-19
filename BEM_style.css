@@ -10,6 +10,24 @@ img{
     height: auto;
 }
 
+.left__img-wrapper{
+  position: relative;
+}
+
+.left__img-wrapper span{
+    position: absolute;
+    top: 45px;
+    right: 60px;
+    z-index: 10;
+
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+}
+
 right__logo-meta > img{
     width: 80px;
 }
@@ -80,6 +98,26 @@ right__logo-meta > img{
 
 .right__form-title {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.left__logo-slogan {
+    position: fixed;
+    top: 50px;
+    left: 20px;
+}
+
+.right__icon{
+    position: relative;
+}
+
+.right__badge{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    color: red;
 }
 
 .right__input-user > input[type="text"], .right__input-password > input[type="password"] {
@@ -129,7 +167,7 @@ hr ~ footer {
 
 .footer__language-list, .footer__footer-links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;

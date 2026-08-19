@@ -1,0 +1,10 @@
+ - Gõ `top: 20px` cho một phần tử chưa đặt `position` gì cả. Nó có nhúc nhích không, vì sao?
+ -> Nó không nhúc nhích. Vì phần tử được cài đặt mặc định là static và không thể chỉnh sửa vị trí
+
+ - Xóa dòng `position: relative` của cái khung bọc icon đi. Con số badge bay đi đâu, vì sao?
+ -> Con số badge đã bay lên đầu trang web góc bên trái trên cùng.
+ Vì trước đó em đã chỉnh nó tự động căn giữa bằng inset: 0 và margin: auto,
+ cộng với đó là khi không có phần tử tổ tiên nào là relative thì phần tử absolute sẽ mặc định coi toàn bộ trang web là một điểm neo
+
+  - Đổi nút ghim từ `fixed` sang `absolute` rồi cuộn trang. Khác nhau ở chỗ nào?
+  -> Khi cuộn thì nó không còn đứng yên một chỗ cố định trên màn hình
