@@ -115,8 +115,9 @@ right__logo-meta > img{
 
 .right__badge{
     position: absolute;
-    top: 0;
-    right: 0;
+    inset: 0;
+    margin: auto;
+    color: red;
 }
 
 .right__input-user > input[type="text"], .right__input-password > input[type="password"] {
