@@ -1,14 +1,14 @@
-const size_list = document.querySelectorAll('.size');
-const topping_list = document.querySelectorAll('.topping');
+const sizeList = document.querySelectorAll('.size');
+const toppingList = document.querySelectorAll('.topping');
 
-size_list.forEach(size => {
+sizeList.forEach(size => {
   size.addEventListener('click', function () {
-    size_list.forEach(s => s.classList.remove('dang-chon'));
+    sizeList.forEach(s => s.classList.remove('dang-chon'));
     this.classList.add('dang-chon');
   })
 })
 
-topping_list.forEach(topping => {
+toppingList.forEach(topping => {
   topping.addEventListener('click', function () {
     this.classList.toggle('dang-chon');
   })
